@@ -1,0 +1,21 @@
+{
+  "name": "thesis",
+  "description": "学位论文格式规则（GB/T 7713 常见要求）",
+  "headings": [
+    { "level": 1, "font": "黑体", "size": 16, "bold": true, "alignment": "center", "space_before": 24, "space_after": 18 },
+    { "level": 2, "font": "黑体", "size": 14, "bold": true, "alignment": "left", "space_before": 18, "space_after": 12 },
+    { "level": 3, "font": "黑体", "size": 12, "bold": true, "alignment": "left", "space_before": 12, "space_after": 6 }
+  ],
+  "body": {
+    "font": "宋体",
+    "size": 12,
+    "line_spacing": 1.5,
+    "first_line_indent": "2字符",
+    "alignment": "justify"
+  },
+  "tables": { "font": "宋体", "size": 10.5 },
+  "page": {
+    "size": "A4",
+    "margins": { "top": 2.54, "bottom": 2.54, "left": 3.0, "right": 3.0 }
+  }
+}

@@ -1,0 +1,71 @@
+# ---- Python 字节码 / 缓存 ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+.env
+!.env.example
+
+# ---- 构建 / 分发产物 ----
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+*.whl
+
+# ---- 类型检查 / 缓存 ----
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# ---- 测试 / 覆盖率 ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.cache/
+
+# ---- 数据 / 运行时产物 ----
+data/
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+templates/*
+!templates/.gitkeep
+
+# ---- Word / Office 临时锁文件 ----
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.xls
+~$*.ppt
+~$*.pptx
+~WRL*.tmp
+*.tmp
+
+# ---- 日志 ----
+*.log
+logs/
+*.log.*
+
+# ---- IDE / 编辑器 ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
