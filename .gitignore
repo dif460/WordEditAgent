@@ -45,6 +45,10 @@ outputs/*
 templates/*
 !templates/.gitkeep
 
+# ---- 设备访问控制 ----
+# 设备凭证 Cookie 的 HMAC 签名密钥（自动生成，切勿提交；删除后已发放的 Cookie 全部失效）
+backend/.device_cookie_secret
+
 # ---- Word / Office 临时锁文件 ----
 ~$*.docx
 ~$*.doc
@@ -69,3 +73,32 @@ logs/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# ---- 前端（Node.js / pnpm / Next.js） ----
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+pnpm-debug.log*
+
+# ---- Docker ----
+docker-compose.override.yml
+data/postgres/
+
+# ---- Python 版本管理 ----
+.python-version
+
+# ---- 环境变量（禁止提交） ----
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ---- 运行时生成文件 ----
+backend/allowed_devices.json
+*.pid
+
+# ---- 合并冲突 / 备份 ----
+*.orig
+*.bak
+*.old

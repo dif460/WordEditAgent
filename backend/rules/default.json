@@ -1,0 +1,141 @@
+{
+  "name": "default",
+  "description": "研究论文（报告）默认格式：用户未提出要求时按此规范识别并修改 Word 文档。字号已换算为 pt（三号=16/四号=14/小四=12/五号=10.5）",
+  "global": {
+    "line_spacing": 1.5,
+    "latin_font": "Times New Roman"
+  },
+  "headings": [
+    { "level": 1, "font": "黑体", "latin_font": "Times New Roman", "size": 14, "bold": true, "alignment": "left" },
+    { "level": 2, "font": "黑体", "latin_font": "Times New Roman", "size": 12, "bold": true, "alignment": "left" },
+    { "level": 3, "font": "宋体", "latin_font": "Times New Roman", "size": 12, "bold": false, "alignment": "left" }
+  ],
+  "body": {
+    "font": "宋体",
+    "latin_font": "Times New Roman",
+    "size": 12,
+    "line_spacing": 1.5,
+    "first_line_indent": "2字符",
+    "alignment": "justify"
+  },
+  "special": {
+    "title": {
+      "font": "黑体",
+      "latin_font": "Times New Roman",
+      "size": 16,
+      "bold": true,
+      "alignment": "center"
+    },
+    "abstract_body": {
+      "font": "宋体",
+      "latin_font": "Times New Roman",
+      "size": 12
+    },
+    "keywords": {
+      "font": "宋体",
+      "latin_font": "Times New Roman",
+      "size": 12
+    },
+    "references_heading": {
+      "font": "黑体",
+      "latin_font": "Times New Roman",
+      "size": 14,
+      "bold": true,
+      "alignment": "left"
+    },
+    "references_entry": {
+      "font": "宋体",
+      "latin_font": "Times New Roman",
+      "size": 12,
+      "hanging_indent": "4字符"
+    },
+    "acknowledgement_heading": {
+      "font": "黑体",
+      "latin_font": "Times New Roman",
+      "size": 14,
+      "bold": true,
+      "alignment": "center"
+    },
+    "appendix_heading": {
+      "font": "黑体",
+      "latin_font": "Times New Roman",
+      "size": 14,
+      "bold": true,
+      "alignment": "left"
+    },
+    "figure_caption": {
+      "font": "黑体",
+      "latin_font": "Times New Roman",
+      "size": 10.5,
+      "alignment": "center"
+    },
+    "table_caption": {
+      "font": "黑体",
+      "latin_font": "Times New Roman",
+      "size": 10.5,
+      "alignment": "center"
+    },
+    "image": {
+      "alignment": "center"
+    },
+    "formula": {
+      "font": "Times New Roman",
+      "size": 12,
+      "alignment": "center"
+    },
+    "cover": {
+      "font": "宋体",
+      "size": 12
+    },
+    "declaration": {
+      "font": "黑体",
+      "size": 14,
+      "bold": true,
+      "alignment": "center"
+    },
+    "sub_heading": {
+      "font": "宋体",
+      "size": 12,
+      "first_line_indent": "2字符"
+    },
+    "english_abstract": {
+      "font": "Times New Roman",
+      "size": 12
+    },
+    "english_keywords": {
+      "font": "Times New Roman",
+      "size": 12
+    },
+    "english_title": {
+      "font": "Times New Roman",
+      "size": 14,
+      "bold": true,
+      "alignment": "center"
+    },
+    "english_author": {
+      "font": "Times New Roman",
+      "size": 12,
+      "alignment": "center"
+    },
+    "date_text": {
+      "font": "宋体",
+      "size": 12
+    }
+  },
+  "tables": {
+    "font": "宋体",
+    "latin_font": "Times New Roman",
+    "size": 12,
+    "alignment": "center"
+  },
+  "page": {
+    "size": "A4",
+    "margins": { "top": 2.5, "bottom": 2.0, "left": 2.5, "right": 2.0 },
+    "page_number": {
+      "position": "bottom",
+      "alignment": "center",
+      "font": "Times New Roman",
+      "size": 9
+    }
+  }
+}
